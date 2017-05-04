@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="590.0" prefWidth="991.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.dinuka.editor.FXMLController">
+   <children>
+      <TextArea fx:id="textArea" cache="true" layoutX="15.0" layoutY="14.0" prefHeight="526.0" prefWidth="962.0" wrapText="true" />
+      <Button layoutX="928.0" layoutY="551.0" mnemonicParsing="false" onAction="#saveFile" text="save" />
+      <Button fx:id="openbtn" layoutX="14.0" layoutY="551.0" mnemonicParsing="false" onAction="#openFile" text="open" />
+      <Button layoutX="592.0" layoutY="551.0" mnemonicParsing="false" onAction="#encryptText" text="Encrypt" />
+      <Button layoutX="331.0" layoutY="551.0" mnemonicParsing="false" onAction="#decryptText" text="Decrypt" />
+      <PasswordField fx:id="passText" layoutX="411.0" layoutY="551.0" promptText="password" style="-fx-text-inner-color: red;" />
+   </children>
+</Pane>
